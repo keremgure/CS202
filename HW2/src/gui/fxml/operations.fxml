@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.Controller">
+    <tabs>
+        <Tab text="Show Tables">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0">
+                    <children>
+                        <Button fx:id="buttonTest" alignment="TOP_CENTER" layoutX="163.0" layoutY="277.0" mnemonicParsing="false" onAction="#setTable" style="-fx-background-color: gray;" text="ButtonTest" textAlignment="CENTER" textFill="#1925a6" textOverrun="WORD_ELLIPSIS" />
+                        <TableView fx:id="tableTest" editable="true" layoutX="49.0" layoutY="14.0" prefHeight="226.0" prefWidth="302.0">
+
+                        </TableView>
+                    </children></AnchorPane>
+            </content>
+        </Tab>
+    </tabs>
+</TabPane>

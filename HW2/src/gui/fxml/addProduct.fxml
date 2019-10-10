@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="205.0" prefWidth="488.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.ProductController">
+   <children>
+      <Label layoutX="15.0" layoutY="45.0" text="Name" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="addProduct_nameField" layoutX="94.0" layoutY="45.0" prefHeight="25.0" prefWidth="123.0" />
+      <Label layoutX="15.0" layoutY="81.0" text="Plant Date" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="addProduct_pDateCBox" layoutX="96.0" layoutY="81.0" prefHeight="25.0" prefWidth="122.0" />
+      <Label layoutX="241.0" layoutY="81.0" text="Harvest Date" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="addProduct_hDateCBox" layoutX="332.0" layoutY="81.0" prefHeight="25.0" prefWidth="122.0" />
+      <Label layoutX="15.0" layoutY="115.0" text="Altitude" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="addProduct_altField" layoutX="94.0" layoutY="115.0" prefHeight="25.0" prefWidth="123.0" />
+      <Label layoutX="239.0" layoutY="115.0" text="Min_temp" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="addProduct_mTempField" layoutX="331.0" layoutY="115.0" prefHeight="25.0" prefWidth="124.0" />
+      <Label layoutX="241.0" layoutY="45.0" text="Hardness" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="addProduct_hardnessField" layoutX="331.0" layoutY="45.0" prefHeight="25.0" prefWidth="125.0" />
+      <Button fx:id="addProduct_submitBtn" layoutX="224.0" layoutY="167.0" mnemonicParsing="false" onAction="#addProductAction" text="Submit" />
+   </children>
+   <padding>
+      <Insets left="32.0" />
+   </padding>
+</AnchorPane>

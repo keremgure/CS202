@@ -1,0 +1,6 @@
+CREATE TABLE Altitudes(
+	alt_id INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+	altitude INT NOT NULL,
+	min_temp INT NOT NULL
+
+)

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="230.0" prefWidth="520.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.RegisterProductController">
+   <children>
+      <Label layoutX="20.0" layoutY="46.0" text="Farmer" />
+      <ComboBox fx:id="registerPro_farmerCBox" layoutX="85.0" layoutY="46.0" prefHeight="20.0" prefWidth="150.0" />
+      <ComboBox fx:id="registerPro_productCBox" layoutX="355.0" layoutY="46.0" prefHeight="20.0" prefWidth="150.0" />
+      <Label layoutX="298.0" layoutY="46.0" text="Product" />
+      <Label layoutX="20.0" layoutY="84.0" text="Amount" />
+      <Label layoutX="298.0" layoutY="84.0" text="Price" />
+      <Label layoutX="195.0" layoutY="128.0" text="IBAN" />
+      <TextField fx:id="registerPro_qtyField" layoutX="85.0" layoutY="80.0" />
+      <TextField fx:id="registerPro_priceField" layoutX="355.0" layoutY="80.0" />
+      <TextField fx:id="registerPro_ibanField" layoutX="239.0" layoutY="124.0" />
+      <Button fx:id="registerPro_submitBtn" layoutX="239.0" layoutY="191.0" mnemonicParsing="false" onAction="#registerProductAction" text="Submit" />
+   </children>
+</AnchorPane>

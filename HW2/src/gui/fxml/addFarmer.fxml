@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="266.0" prefWidth="498.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.FarmerController">
+   <children>
+      <Label layoutX="32.0" layoutY="46.0" stylesheets="@../css/style.css" text="Name" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="addFarmer_nameField" layoutX="111.0" layoutY="46.0" prefHeight="25.0" prefWidth="123.0" />
+      <Label layoutX="264.0" layoutY="46.0" text="Last Name" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="addFarmer_lnameField" layoutX="345.0" layoutY="46.0" prefHeight="25.0" prefWidth="121.0" />
+      <Label layoutX="32.0" layoutY="83.0" text="Address" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="addFarmer_addrField" layoutX="112.0" layoutY="83.0" prefHeight="25.0" prefWidth="122.0" />
+      <Label layoutX="264.0" layoutY="83.0" text="City" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="addFarmer_cityField" layoutX="343.0" layoutY="83.0" prefHeight="25.0" prefWidth="123.0" />
+      <Label layoutX="32.0" layoutY="123.0" text="Zipcode" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="addFarmer_zipField" layoutX="110.0" layoutY="123.0" prefHeight="25.0" prefWidth="124.0" />
+      <Label layoutX="264.0" layoutY="123.0" text="Phone(s)" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="addFarmer_phonesField" layoutX="341.0" layoutY="123.0" prefHeight="25.0" prefWidth="125.0" />
+      <Label layoutX="208.0" layoutY="161.0" text="Email(s)" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="addFarmer_emailsField" layoutX="284.0" layoutY="161.0" prefHeight="25.0" prefWidth="126.0" />
+      <Button fx:id="addFarmer_submitBtn" layoutX="221.0" layoutY="225.0" mnemonicParsing="false" onAction="#addFarmerAction" text="Submit" />
+   </children>
+   <padding>
+      <Insets left="32.0" />
+   </padding>
+</AnchorPane>

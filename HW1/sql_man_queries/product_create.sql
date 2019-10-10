@@ -1,0 +1,7 @@
+CREATE TABLE Product(
+	pid INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+	pname VARCHAR(16) NOT NULL,
+	hardness_level INT NOT NULL,
+	plant_id INT NOT NULL FOREIGN KEY REFERENCES Plant_Dates(plant_id),
+	alt_id INT NOT NULL FOREIGN KEY REFERENCES Altitudes(alt_id)
+)

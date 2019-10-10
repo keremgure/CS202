@@ -1,0 +1,96 @@
+.text-input
+{
+    -fx-text-fill : #fff;
+    -fx-border-color: #9643a9;
+    -fx-background-color: TRANSPARENT;
+    -fx-background-insets: 0;
+    -fx-border-radius: 20;
+}
+.radio-color
+{
+    -fx-mark-highlight-color : #9643A9;
+    -fx-mark-color : #CE201C;
+}
+
+.label
+{
+    -fx-text-fill: #ddd9d9;
+    -fx-font-size: 14px;
+}
+.button
+{
+    -fx-background-color: TRANSPARENT;
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+    -fx-border-color: #9643A9;
+}
+.button:hover{
+    -fx-cursor: hand;
+}
+.combo-box-base, .combo-box-base:cell-selection,.combo-box-base:showing,.combo-box-base:focused{
+    -fx-background-color: transparent;
+}
+.combo-box-base .list-cell
+{
+    -fx-background: transparent;
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-padding: 3 0 2 7;
+    -fx-cell-size: 2em;
+    -fx-border-radius: 5;
+    -fx-border-color: #9643A9;
+}
+.combo-box-popup .list-view
+{
+    -fx-background-color: white, white;
+    -fx-background-insets: 0, 0;
+    -fx-padding: 0;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 8, 0.0 , 0 , 0 );
+}
+
+.combo-box-popup .list-view .list-cell
+{
+    -fx-padding: 4 0 4 5;
+
+    /* No alternate highlighting */
+    -fx-background-color: #524A7B;
+    -fx-text-fill: white;
+}
+
+.combo-box-popup .list-view .list-cell:filled:selected, .combo-box-popup .list-view .list-cell:filled:selected:hover
+{
+    -fx-background: -fx-accent;
+    -fx-background-color: -fx-selection-bar;
+    -fx-text-fill: white;
+}
+
+.combo-box-popup .list-view .list-cell:filled:hover
+{
+    -fx-background-color: white;
+    -fx-text-fill: -fx-text-inner-color;
+}
+.combo-box-base .arrow-button{
+/*    !*visibility: hidden;*!*/
+/*    !*-fx-shape: null;*!*/
+    -fx-background-color: transparent;
+/*    !*-fx-background-radius: 2px;*!*/
+}
+
+.combo-box-base .scroll-bar:horizontal,.combo-box-base .scroll-bar:vertical{
+    -fx-background-color: #393351;
+}
+.combo-box-base .increment-button,.combo-box-base .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.combo-box-base .scroll-bar:horizontal .track, .combo-box-base .scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.combo-box-base .scroll-bar:horizontal .thumb, .combo-box-base .scroll-bar:vertical .thumb {
+    -fx-background-color: #FA2C56;
+    -fx-background-radius: 5em;
+}

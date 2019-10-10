@@ -1,0 +1,14 @@
+1.
+Find the names of farmers who produces most for each product.
+
+2.
+Find the names of farmers who sells most for each product in the website.
+
+3.
+Find the name(s) of farmers who make most money.
+
+4.
+Find the names of markets with the biggest budget in each city.
+
+5.
+Find the total number of users of website.

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="1000.0" style="-fx-background-color: #2F2B43;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.MainController">
+   <children>
+      <AnchorPane prefHeight="640.0" prefWidth="240.0" style="-fx-background-color: #393351;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox layoutX="6.0" layoutY="249.0" prefHeight="390.0" prefWidth="233.0" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="160.0">
+               <children>
+                  <Button fx:id="farmerBtn" mnemonicParsing="false" onAction="#setPane" prefHeight="50.0" prefWidth="242.0" stylesheets="@../css/fullpackstyling.css" text="Add Farmer" textFill="WHITE" />
+                  <Button fx:id="marketBtn" mnemonicParsing="false" onAction="#setPane" prefHeight="50.0" prefWidth="231.0" stylesheets="@../css/fullpackstyling.css" text="Add Market" textFill="WHITE" />
+                  <Button fx:id="productBtn" mnemonicParsing="false" onAction="#setPane" prefHeight="50.0" prefWidth="231.0" stylesheets="@../css/fullpackstyling.css" text="Add Product" textFill="WHITE" />
+                  <Button fx:id="registerBtn" mnemonicParsing="false" onAction="#setPane" prefHeight="50.0" prefWidth="231.0" stylesheets="@../css/fullpackstyling.css" text="Register Product" textFill="WHITE" />
+                  <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="231.0" stylesheets="@../css/fullpackstyling.css" text="Button" textFill="WHITE" />
+                  <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="231.0" stylesheets="@../css/fullpackstyling.css" text="Button" textFill="WHITE" />
+                  <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="231.0" stylesheets="@../css/fullpackstyling.css" text="Button" textFill="WHITE" />
+               </children>
+            </VBox>
+            <Pane layoutY="110.0" prefHeight="50.0" prefWidth="240.0" style="-fx-background-color: #68479F; -fx-background-radius: 5;">
+               <children>
+                  <Label layoutX="29.0" layoutY="12.0" text="Home Space" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+      <Pane layoutX="240.0" prefHeight="640.0" prefWidth="760.0">
+         <children>
+            <Pane layoutX="-33.0" layoutY="-150.0" prefHeight="350.0" prefWidth="642.0" rotate="41.6" style="-fx-background-color: #FA2C56; -fx-background-radius: 70;" />
+         </children>
+      </Pane>
+      <Pane fx:id="importPane" layoutX="288.0" layoutY="297.0" prefHeight="343.0" prefWidth="712.0" style="-fx-padding: 20;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="288.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="297.0">
+         <padding>
+            <Insets bottom="20.0" left="50.0" right="50.0" top="20.0" />
+         </padding>
+         <opaqueInsets>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </opaqueInsets>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="224.0" prefWidth="465.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controllers.MarketController">
+   <children>
+      <Label layoutX="16.0" layoutY="50.0" text="Name" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="addMarket_nameField" layoutX="94.0" layoutY="46.0" prefHeight="25.0" prefWidth="123.0" />
+      <Label layoutX="247.0" layoutY="46.0" text="Address" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="addMarket_addrField" layoutX="327.0" layoutY="46.0" prefHeight="25.0" prefWidth="122.0" />
+      <Label layoutX="22.0" layoutY="87.0" text="City" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="addMarket_cityField" layoutX="94.0" layoutY="83.0" prefHeight="25.0" prefWidth="123.0" />
+      <Label layoutX="247.0" layoutY="84.0" text="Zipcode" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="addMarket_zipField" layoutX="325.0" layoutY="83.0" prefHeight="25.0" prefWidth="124.0" />
+      <Label layoutX="12.0" layoutY="123.0" text="Phone(s)" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="addMarket_phonesField" layoutX="92.0" layoutY="119.0" prefHeight="25.0" prefWidth="125.0" />
+      <Label layoutX="247.0" layoutY="121.0" text="Budget" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="addMarket_budgetField" layoutX="323.0" layoutY="119.0" prefHeight="25.0" prefWidth="126.0" />
+      <Button fx:id="addMarket_submitBtn" layoutX="201.0" layoutY="175.0" mnemonicParsing="false" onAction="#addMarketAction" text="Submit" />
+   </children>
+   <padding>
+      <Insets left="32.0" />
+   </padding>
+</AnchorPane>
